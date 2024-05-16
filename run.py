@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # import atexit
 import os
 import struct
@@ -17,7 +18,7 @@ device_xml = """
   <source>
     <address domain="0x0000" bus="0x00" slot="0x14" function="0x0"/>
   </source>
-  <address type="pci" domain="0x0000" bus="0x10" slot="0x01" function="0x0"/>
+  <address type="pci" domain="0x0000" bus="0x10" slot="0x02" function="0x0"/>
 </hostdev>
 """
 
